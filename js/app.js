@@ -63,13 +63,13 @@ class Player {
             if (this.direction == 'left') {
                 this.x = this.x - 101;
                 if (this.x < 0) {
-                    this.x = 0;
+                    this.x = 0 + 20;
                 }
             }
             if (this.direction == 'right') {
                 this.x = this.x + 101;
                 if (this.x > 101 * 4) {
-                    this.x = 101 * 4;
+                    this.x = 101 * 4 + 20;
                 }
             }
             this.direction = null;
